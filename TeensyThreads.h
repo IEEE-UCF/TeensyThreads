@@ -183,7 +183,7 @@ public:
   // the implementation. See notes of ThreadInfo.
   int DEFAULT_TICKS = 10;
   int DEFAULT_STACK_SIZE = 1024;
-  static const int MAX_THREADS = 16;
+  static const int MAX_THREADS = 50;
   static const int DEFAULT_STACK0_SIZE = 10240; // estimate for thread 0?
   static const int DEFAULT_TICK_MICROSECONDS = 100;
   static const int UTIL_STATE_NAME_DESCRIPTION_LENGTH = 24;
